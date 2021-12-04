@@ -1,12 +1,25 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 body{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 287px;
     height: 812px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     top: 0px;
     left: 0px;
     background: transparent url('/images/base1.png') 0% 0% no-repeat padding-box;
-    box-shadow: 0px 0px 60px #00000099;
+    -webkit-box-shadow: 0px 0px 60px #00000099;
+            box-shadow: 0px 0px 60px #00000099;
     opacity: 1;
 }
 
