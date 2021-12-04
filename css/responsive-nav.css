@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    width: 287px;
+    height: 812px;
+    flex-direction: column;
+    top: 0px;
+    left: 0px;
+    background: transparent url('/images/base1.png') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 60px #00000099;
+    opacity: 1;
+}
+
+footer{
+    top: 502px;
+    left: 0px;
+    width: 287px;
+    height: 310px;
+    background-color: transparent url('/images/base.png') 0% 0% no-repeat padding-box;
+    opacity: 0.23;
+}
+
+.logo{
+    font: bold normal normal 13px/20px Helvetica, serif;
+    color: #FA6980;
+    margin: 20px auto 17px 20px;
+}
+
+.nav-list > li {
+    margin: 21px 0px 18px 27px;
+}
+
+.nav-list > li > .bold{
+    color: #343638;
+    opacity: 1;
+}
+
+.nav-list > li > a{
+    font: bold normal normal 11px/20px Helvetica, serif;
+    color: #343638;
+    opacity: 0.5;
+}
+
+.nav-list > li > a:hover{
+    opacity: 20%;
+}
+
+.user-profile{
+    max-width: 30px;
+    max-height: 30px;
+    margin: 10px 20px 10px 40px;
+}

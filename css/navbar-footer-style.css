@@ -1,0 +1,120 @@
+/* responsive */
+body{
+    max-width: 1440px;
+    margin: 0px auto 0px auto;
+    background-color: #F6F8F9;
+    opacity: 1; 
+}
+
+.responsive-main{
+    max-width: 1160px;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+/* navbar */
+.logo{
+    font: bold normal normal 13px/20px Helvetica, serif;
+    color: #FA6980;
+    margin: 20px auto 17px 20px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    align-items: center;
+    max-width: 1440px;
+    box-sizing: border-box;
+}
+.nav-list {
+    display: flex;
+}
+
+
+.nav-list > li {
+    margin: 21px 0px 18px 27px;
+}
+
+.bold{
+    font: bold normal normal 11px/20px Helvetica, serif;
+    color: #343638;
+    opacity: 1;
+}
+
+.nav-list > li > a{
+    font: bold normal normal 11px/20px Helvetica, serif;
+    color: #343638;
+    opacity: 0.5;
+}
+
+.user-profile{
+    max-width: 30px;
+    max-height: 30px;
+    margin: 10px 20px 10px 40px;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #A6ADB4; 
+    max-height: 200px;
+    padding: 56px 138.76px 60px 142px;
+}
+
+footer div:first-child{
+    color: #FFFFFF;
+    font: bold normal normal 13px/20px AcuminPro, serif;
+
+}
+
+.inline-element{
+    display: inline-block;
+}
+
+.contact > input{
+    width: 262px;
+    height: 40px;
+    border: 1px solid #FFFFFF; /* 2px? */
+    border-radius: 6px;
+    opacity: 10%;
+    background-color: #A6ADB4;
+    padding: 14px 19px 16px 20px;
+}
+
+::placeholder{
+    color: #CBD0D3;
+    font: bold normal normal 13px/20px Helvetica, serif;
+}
+
+
+.contact > p{
+    color: #CBD0D3;
+    font: bold normal normal 11px/20px Helvetica, serif;
+    margin-top: 16px;
+}
+
+.footer-ul{
+    margin-right: 13px;
+}
+
+.footer-ul > li{
+    margin-bottom: 10px;
+}
+
+.footer-ul > li > a{
+    color: #CBD0D3;
+    font: bold normal normal 13px/20px Helvetica, serif;
+}
+
+
+.social-networks-wrapper > li{
+    display: inline-block;
+    margin-right: 32px;
+}
